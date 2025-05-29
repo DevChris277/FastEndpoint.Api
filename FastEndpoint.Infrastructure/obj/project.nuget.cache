@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "MNsfUss0ZTU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joani\\RiderProjects\\FastEndpoint.Test\\FastEndpoint.Infrastructure\\FastEndpoint.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joani\\.nuget\\packages\\fastendpoints\\6.2.0-beta.3\\fastendpoints.6.2.0-beta.3.nupkg.sha512",
+    "C:\\Users\\joani\\.nuget\\packages\\fastendpoints.attributes\\6.2.0-beta.3\\fastendpoints.attributes.6.2.0-beta.3.nupkg.sha512",
+    "C:\\Users\\joani\\.nuget\\packages\\fastendpoints.messaging.core\\6.2.0-beta.3\\fastendpoints.messaging.core.6.2.0-beta.3.nupkg.sha512",
+    "C:\\Users\\joani\\.nuget\\packages\\fastendpoints.security\\6.2.0-beta.3\\fastendpoints.security.6.2.0-beta.3.nupkg.sha512",
+    "C:\\Users\\joani\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
+    "C:\\Users\\joani\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\9.0.5\\microsoft.aspnetcore.authentication.jwtbearer.9.0.5.nupkg.sha512",
+    "C:\\Users\\joani\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\joani\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.0.1\\microsoft.identitymodel.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\joani\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.0.1\\microsoft.identitymodel.jsonwebtokens.8.0.1.nupkg.sha512",
+    "C:\\Users\\joani\\.nuget\\packages\\microsoft.identitymodel.logging\\8.0.1\\microsoft.identitymodel.logging.8.0.1.nupkg.sha512",
+    "C:\\Users\\joani\\.nuget\\packages\\microsoft.identitymodel.protocols\\8.0.1\\microsoft.identitymodel.protocols.8.0.1.nupkg.sha512",
+    "C:\\Users\\joani\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\8.0.1\\microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg.sha512",
+    "C:\\Users\\joani\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.0.1\\microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
+    "C:\\Users\\joani\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.0.1\\system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
