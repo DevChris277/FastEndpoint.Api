@@ -16,7 +16,7 @@ public class RegisterEndpoint : Endpoint<RegisterRequest, AuthenticationResponse
     public override void Configure()
     {
         Post("/api/auth/register");
-        AllowAnonymous();
+        // AllowAnonymous();
     }
 
     public override async Task HandleAsync(RegisterRequest req, CancellationToken ct)

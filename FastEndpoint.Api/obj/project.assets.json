@@ -606,6 +606,16 @@
           "bin/placeholder/FastEndpoint.Application.dll": {}
         }
       },
+      "FastEndpoint.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/FastEndpoint.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FastEndpoint.Contracts.dll": {}
+        }
+      },
       "FastEndpoint.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -630,16 +640,6 @@
         },
         "runtime": {
           "bin/placeholder/FastEndpoint.Infrastructure.dll": {}
-        }
-      },
-      "FastEndpoints.Contracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/FastEndpoints.Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/FastEndpoints.Contracts.dll": {}
         }
       }
     }
@@ -1452,6 +1452,11 @@
       "path": "../FastEndpoint.Application/FastEndpoint.Application.csproj",
       "msbuildProject": "../FastEndpoint.Application/FastEndpoint.Application.csproj"
     },
+    "FastEndpoint.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../FastEndpoint.Contracts/FastEndpoint.Contracts.csproj",
+      "msbuildProject": "../FastEndpoint.Contracts/FastEndpoint.Contracts.csproj"
+    },
     "FastEndpoint.Domain/1.0.0": {
       "type": "project",
       "path": "../FastEndpoint.Domain/FastEndpoint.Domain.csproj",
@@ -1461,18 +1466,13 @@
       "type": "project",
       "path": "../FastEndpoint.Infrastructure/FastEndpoint.Infrastructure.csproj",
       "msbuildProject": "../FastEndpoint.Infrastructure/FastEndpoint.Infrastructure.csproj"
-    },
-    "FastEndpoints.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../FastEndpoints.Contracts/FastEndpoints.Contracts.csproj",
-      "msbuildProject": "../FastEndpoints.Contracts/FastEndpoints.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "FastEndpoint.Contracts >= 1.0.0",
       "FastEndpoint.Infrastructure >= 1.0.0",
       "FastEndpoints >= 6.2.0-beta.3",
-      "FastEndpoints.Contracts >= 1.0.0",
       "FastEndpoints.Swagger >= 6.2.0-beta.3",
       "Mapster >= 7.4.2-pre02",
       "Microsoft.AspNetCore.OpenApi >= 9.0.5"
@@ -1503,11 +1503,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
+            "C:\\Users\\joani\\RiderProjects\\FastEndpoint.Test\\FastEndpoint.Contracts\\FastEndpoint.Contracts.csproj": {
+              "projectPath": "C:\\Users\\joani\\RiderProjects\\FastEndpoint.Test\\FastEndpoint.Contracts\\FastEndpoint.Contracts.csproj"
+            },
             "C:\\Users\\joani\\RiderProjects\\FastEndpoint.Test\\FastEndpoint.Infrastructure\\FastEndpoint.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\joani\\RiderProjects\\FastEndpoint.Test\\FastEndpoint.Infrastructure\\FastEndpoint.Infrastructure.csproj"
-            },
-            "C:\\Users\\joani\\RiderProjects\\FastEndpoint.Test\\FastEndpoints.Contracts\\FastEndpoints.Contracts.csproj": {
-              "projectPath": "C:\\Users\\joani\\RiderProjects\\FastEndpoint.Test\\FastEndpoints.Contracts\\FastEndpoints.Contracts.csproj"
             }
           }
         }

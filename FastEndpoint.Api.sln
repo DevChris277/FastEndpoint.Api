@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastEndpoint.Api", "FastEndpoint.Api\FastEndpoint.Api.csproj", "{9F7C86B1-CC7C-451D-AE94-F0578BF28CDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastEndpoints.Contracts", "FastEndpoints.Contracts\FastEndpoints.Contracts.csproj", "{A0F9CF0A-D9BE-45BF-8D1E-6D2041CAD96A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastEndpoint.Contracts", "FastEndpoint.Contracts\FastEndpoint.Contracts.csproj", "{A0F9CF0A-D9BE-45BF-8D1E-6D2041CAD96A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastEndpoint.Infrastructure", "FastEndpoint.Infrastructure\FastEndpoint.Infrastructure.csproj", "{7CDAD601-695D-4C80-AE3E-A99EABB05349}"
 EndProject

@@ -16,7 +16,7 @@
 
     <ItemGroup>
         <ProjectReference Include="..\FastEndpoint.Infrastructure\FastEndpoint.Infrastructure.csproj"/>
-        <ProjectReference Include="..\FastEndpoints.Contracts\FastEndpoints.Contracts.csproj"/>
+        <ProjectReference Include="..\FastEndpoint.Contracts\FastEndpoint.Contracts.csproj" />
     </ItemGroup>
 
 </Project>

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joani\\RiderProjects\\FastEndpoint.Test\\FastEndpoints.Contracts\\FastEndpoints.Contracts.csproj",
-      "projectName": "FastEndpoints.Contracts",
-      "projectPath": "C:\\Users\\joani\\RiderProjects\\FastEndpoint.Test\\FastEndpoints.Contracts\\FastEndpoints.Contracts.csproj",
+      "projectUniqueName": "C:\\Users\\joani\\RiderProjects\\FastEndpoint.Test\\FastEndpoint.Contracts\\FastEndpoint.Contracts.csproj",
+      "projectName": "FastEndpoint.Contracts",
+      "projectPath": "C:\\Users\\joani\\RiderProjects\\FastEndpoint.Test\\FastEndpoint.Contracts\\FastEndpoint.Contracts.csproj",
       "packagesPath": "C:\\Users\\joani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joani\\RiderProjects\\FastEndpoint.Test\\FastEndpoints.Contracts\\obj\\",
+      "outputPath": "C:\\Users\\joani\\RiderProjects\\FastEndpoint.Test\\FastEndpoint.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\joani\\AppData\\Roaming\\NuGet\\NuGet.Config"
